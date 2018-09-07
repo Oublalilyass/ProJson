@@ -1,0 +1,199 @@
+h1{
+	text-align: center;
+	padding:16px
+}
+.menu{
+	position: relative;
+	float: left;
+	background-color: crimson;
+	height: 100vh;
+	color: white;
+	width: 20%;
+	z-index: 999;
+	left: -290px;
+  -webkit-transition: .5s ease all;
+  transition: .5s ease all;
+}
+.menu-open{
+	left: 0px;
+	background-color: dodgerblue;
+}
+.close-btn{
+	display: block;
+	height: 60px;
+	font-size: 30px;
+	float: right;
+	padding: 0 10px;
+	background-color: crimson;
+	cursor: pointer;
+	position: absolute;
+	left: 286px;
+	line-height: 60px;	
+	 -webkit-transition: .5s ease all;
+     transition: .5s ease all;
+}
+.open-btn{
+	background-color: dodgerblue;
+}
+#father >li{
+	list-style-type: none;
+	text-align: center;
+	line-height: 60px;
+	cursor: pointer;
+	border-bottom: 1px solid darkgray;	
+}li:hover{
+	background-color: aliceblue;
+	color: black;
+}
+
+#son{
+display: none;
+	width: 100% !important;
+	
+}
+#son >li{
+	background-color: floralwhite;
+	color: black;
+}#son >li:hover{
+	background-color: crimson;
+	
+}
+.content{
+	position: relative;
+	background-color: #eee;
+	height: 60px;
+	box-sizing: border-box;
+}
+.img{
+	position: relative;
+	height: 699px;
+	background-image: url(../IMG/tree.jpg
+	);
+	background-size: cover;
+	background-position: center;
+}
+.content{
+	width: 100vw;
+	left: 0px;
+}
+
+
+/*------------media Query----------------*/
+@media (min-width :1400px){
+  
+.close-btn{
+	left: 250px;
+	width: 40px;
+	text-align: center;
+}
+.menu{	
+	left: -255px;
+	height: 103vh;
+	width:18%;
+}
+.menu-open{
+	left: 0px;
+}	
+}
+@media screen and (min-width:1200px) and (max-width:1400px){
+ 
+   .close-btn{
+	left: 216px;
+	width: 40px;
+	text-align: center;
+}
+.menu{	
+	left: -230px;
+	height: 103vh;
+	width:18%;
+}
+.menu-open{
+	left:-10px;
+}	
+}
+
+@media screen and (min-width:1000px) and (max-width:1200px){
+
+   .close-btn{
+	left: 194px;
+	width: 40px;
+	text-align: center;
+}
+.menu{	
+	left: -209px;
+	height: 103vh;
+	width:18%;
+}
+.menu-open{
+	left:-10px;
+}	
+}
+
+@media only screen and (max-width : 640px) {
+	
+.close-btn{
+	left: 120px;
+	width: 25px;
+	text-align: center;
+}
+.menu{	
+	left: -129px;
+	height: 103vh;
+	width:130px;
+}
+.menu-open{
+	left: 0px;
+}	
+}
+
+@media only screen and (max-width : 600px) {
+.menu {
+ 	float: none;
+	width: 600px;
+	height: 50vh;
+	text-align: center;
+    }		
+	.close-btn{
+         display: none;
+       }
+	}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

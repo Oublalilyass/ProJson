@@ -1,0 +1,12 @@
+/*Font-Google*/
+@import url('<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">');
+
+body, html,*{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Varela Round', sans-serif;
+	-webkit-font-smoothing: antialiased;
+
+
+	
+}
